@@ -26,13 +26,13 @@ replace=["-","\'","\"",",",":",";",".","(",")"]
 def apitexte(texte):
 	import re
 	texte=texte.split()
-	caca = []
+	liste = []
 	for mots in texte:
 		for each in fr2:
 			if re.search(each,mots):
 				mots = re.sub(each,regex_to_api[fr2.index(each)],mots)
-		caca.append(mots)
-	return caca
+		liste.append(mots)
+	return liste
 
 
 def apimatch(texte):
