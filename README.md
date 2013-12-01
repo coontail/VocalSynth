@@ -7,9 +7,9 @@ French voice synthesizer written in Python
 ~~~
 $ python3
 
-> from voxbi import *
+> from vocalsynth import *
 
-> voxbi("Ami, entends-tu le vol noir du corbeau sur nos plaines ?")
+> vocalize("Ami, entends-tu le vol noir du corbeau sur nos plaines ?")
 
 Lecture WAVE '../data/vocal.wav' : Signed 16 bit Little Endian, Fréquence 44100 Hz, Stéréo
 
